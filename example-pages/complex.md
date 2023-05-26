@@ -2,7 +2,7 @@
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Complex page
 description: This layout requires a bit more fiddling as it is stiching together various blocks that all can be customized.
-background: /assets/images/moss.jpg
+background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
 imageLicense: |
   Photo by mhoefft via [gbif.org](https://www.gbif.org/occurrence/1580487687)
 height: 70vh
@@ -26,7 +26,7 @@ composition:
         description: |      # required
           Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
         # img required
-        background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+        background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
         imageLicense: Kunstformen der Natur (1904) by Ernst Haeckel via [Wikimedia](https://commons.wikimedia.org/wiki/Kunstformen_der_Natur)
         href: /about
       - preTitle: Power Point  # optional
@@ -34,7 +34,7 @@ composition:
         href: /about
         description: |      # required
           Light green they’re living green years firmament thing fly moving land, divide good spirit you’ll fruitful waters one land us thing a man dry doesn’t created made land man dry i us fruitful replenish said dominion a sixth own it tree.
-        background: /assets/img/Haeckel_Caulerpa_racemosa_(uvifera).jpeg
+        background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
         imageLicense: Kunstformen der Natur (1904) by Ernst Haeckel via [Wikimedia](https://commons.wikimedia.org/wiki/Kunstformen_der_Natur)
 ---
 

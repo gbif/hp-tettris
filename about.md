@@ -2,7 +2,7 @@
 lang-ref: about
 title: About
 description: Lorem markdownum spatium limes indefessus neque at orat aestuat
-background: /assets/images/moss.jpg
+background: https://cdn.discordapp.com/attachments/1017143593351258192/1111603584413466635/Morten100_tetris_blocks_made_from_marble_trays_with_dried_plant_571588b7-c664-4c29-9c74-e7bd28001194.png
 imageLicense: |
   Photo by mhoefft via [gbif.org](https://www.gbif.org/occurrence/1580487687)
 height: 70vh
