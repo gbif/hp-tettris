@@ -1,11 +1,15 @@
-var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
-  primary: themeStyle.colors.primary
-}});
+var siteTheme = gbifReactComponents.themeBuilder.extend({
+  baseTheme: 'light', extendWith: {
+    primary: themeStyle.colors.primary
+  }
+});
 
-var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
-  primary: themeStyle.colors.primary,
-  fontSize: '16px'
-}});
+var siteTheme = gbifReactComponents.themeBuilder.extend({
+  baseTheme: 'light', extendWith: {
+    primary: themeStyle.colors.primary,
+    fontSize: '16px'
+  }
+});
 
 var siteConfig = {
   routes: {
@@ -74,14 +78,46 @@ var siteConfig = {
           ]
         },
         {
-          "type": "in", 
-          "key": "publishingCountry", 
+          "type": "in",
+          "key": "publishingCountry",
           "values": ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB']
         }
       ]
     },
     // occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
+  },
+  collection: {
+    availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE'],
+    excludedFilters: [],
+    rootFilter: {
+      displayOnNHCPortal: true,
+    }
+  },
+  institution: {
+    availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE'],
+    excludedFilters: [],
+    rootFilter: {
+      displayOnNHCPortal: true,
+    }
+  },
+  apiKeys: {
+    maptiler: "wFxbBf3Tv2e75QQfYOOW",
+    mapbox: "pk.eyJ1IjoiZ2JpZiIsImEiOiJja3VmZm50Z3kxcm1vMnBtdnBmeGd5cm9hIn0.M2z2n9QP9fRHZUCw9vbgOA"
+  },
+  maps: {
+    // locale: 'ja',
+    defaultProjection: 'MERCATOR',
+    defaultMapStyle: 'BRIGHT',
+    mapStyles: {
+      ARCTIC: ['NATURAL', 'BRIGHT'],
+      PLATE_CAREE: ['NATURAL', 'BRIGHT', 'DARK'],
+      MERCATOR: ['NATURAL', 'BRIGHT', 'SATELLITE', 'DARK'],
+      ANTARCTIC: ['NATURAL', 'BRIGHT', 'DARK']
+    }
+  },
+  messages: {
+    "catalogues.occurrences": "Specimens"
   }
 };
 
