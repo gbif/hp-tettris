@@ -2,9 +2,8 @@
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Complex page
 description: This layout requires a bit more fiddling as it is stiching together various blocks that all can be customized.
-background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
-imageLicense: |
-  Photo by mhoefft via [gbif.org](https://www.gbif.org/occurrence/1580487687)
+background: /assets/images/placeholders/blocks2.png
+imageLicense:  None for this image, but normally you would provide one here
 height: 70vh
 # The general format for these compositions is a list of blocks. Each block has a type and some data that is used by the block template.
 # See more examples at https://hp-theme.gbif-staging.org/layout/compose
@@ -26,16 +25,16 @@ composition:
         description: |      # required
           Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
         # img required
-        background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
-        imageLicense: Kunstformen der Natur (1904) by Ernst Haeckel via [Wikimedia](https://commons.wikimedia.org/wiki/Kunstformen_der_Natur)
+        background: /assets/images/placeholders/blocks2.png
+        imageLicense:  None for this image, but normally you would provide one herewiki/Kunstformen_der_Natur)
         href: /about
       - preTitle: Power Point  # optional
         title: Fly moving land
         href: /about
         description: |      # required
           Light green they’re living green years firmament thing fly moving land, divide good spirit you’ll fruitful waters one land us thing a man dry doesn’t created made land man dry i us fruitful replenish said dominion a sixth own it tree.
-        background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
-        imageLicense: Kunstformen der Natur (1904) by Ernst Haeckel via [Wikimedia](https://commons.wikimedia.org/wiki/Kunstformen_der_Natur)
+        background: /assets/images/placeholders/blocks2.png
+        imageLicense: None for this image, but normally you would provide one here
 ---
 
 # Some prose

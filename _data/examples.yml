@@ -4,17 +4,17 @@ stats:
   # description: |      # required
   #  See [`_data/compose/examples.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/examples.yml#L72) for the content structure.
   features:
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?country=GB&displayOnNHCPortal=true">642</span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?displayOnNHCPortal=true">642</span>
       description: Institutions
-      background: /assets/images/institutions_small.jpg
+      background: /assets/images/placeholders/institutions_small.jpg
       href: /institution/search
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?country=GB&displayOnNHCPortal=true">45</span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?&displayOnNHCPortal=true">45</span>
       description: Collections
-      background: /assets/images/collections_small.jpg
+      background: /assets/images/placeholders/collections_small.jpg
       href: /collection/search
     - title: "54 million"
       description: Digitized specimens
-      background: /assets/images/specimen_small.jpg
+      background: /assets/images/placeholders/specimen_small.jpg
 
 couldBeAnyName:
   title: Virginis socerque
@@ -26,32 +26,32 @@ couldBeAnyName:
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
       # img required
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
+      background: /assets/images/placeholders/blocks2.png
       imageLicense: None for this image, but normally you would provide one here
       # categories: [drawings] # optional
     - title: Fly moving land # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
+      background: /assets/images/placeholders/blocks2.png
       imageLicense: None for this image, but normally you would provide one here
     - title: Fruitful replenish # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
+      background: /assets/images/placeholders/blocks2.png
       imageLicense: None for this image, but normally you would provide one here
     - title: Land man dry # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
+      background: /assets/images/placeholders/blocks2.png
       imageLicense: None for this image, but normally you would provide one here
     - title: Abundantly light years # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
+      background: /assets/images/placeholders/blocks2.png
       imageLicense: None for this image, but normally you would provide one here
 
 herbariumImageExample:

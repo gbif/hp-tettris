@@ -2,9 +2,8 @@
 layout: post # try to remoce this line (add # in the beginning of the line to make it a comment) - then the layout will change, but the content remain the same
 title: Simple page
 description: This page is using a simple predefined layout with an image, a title and some body text
-background: https://cdn.discordapp.com/attachments/1017143593351258192/1111561832746983444/Morten100_tetris_blocks_made_from_marble._Stacked_carefully_77031e18-0ed4-4e6f-9ba2-66a7a87e6c26.png
-imageLicense: |
-  Photo by mhoefft via [gbif.org](https://www.gbif.org/occurrence/1580487687)
+background: /assets/images/placeholders/blocks2.png
+imageLicense: None for this image, but normally you would provide one here
 height: 70vh
 ---
 
