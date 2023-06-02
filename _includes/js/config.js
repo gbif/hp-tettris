@@ -1,11 +1,5 @@
 var siteTheme = gbifReactComponents.themeBuilder.extend({
   baseTheme: 'light', extendWith: {
-    primary: themeStyle.colors.primary
-  }
-});
-
-var siteTheme = gbifReactComponents.themeBuilder.extend({
-  baseTheme: 'light', extendWith: {
     primary: themeStyle.colors.primary,
     fontSize: '16px'
   }
@@ -35,6 +29,10 @@ var siteConfig = {
       url: ({ key }) => {
         return `/institution/${key}`;
       }
+    },
+    institutionSpecimens: {
+      route: '/institution/:key/specimens',
+      url: ({ key }) => `/institution/${key}/specimens`
     },
   },
   occurrence: {
