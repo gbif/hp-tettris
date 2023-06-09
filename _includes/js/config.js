@@ -97,7 +97,13 @@ var siteConfig = {
     excludedFilters: [],
     rootFilter: {
       displayOnNHCPortal: true,
-    }
+    },
+    mapSettings: {
+      enabled: true,
+      lat: 56.50382808,
+      lng: 14.783703,
+      zoom: 3.891
+    },
   },
   apiKeys: {
     maptiler: "wFxbBf3Tv2e75QQfYOOW",
