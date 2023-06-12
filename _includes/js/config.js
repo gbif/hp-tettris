@@ -90,6 +90,7 @@ var siteConfig = {
     excludedFilters: [],
     rootFilter: {
       displayOnNHCPortal: true,
+      active: true
     }
   },
   institution: {
