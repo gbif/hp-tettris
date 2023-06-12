@@ -97,6 +97,7 @@ var siteConfig = {
     excludedFilters: [],
     rootFilter: {
       displayOnNHCPortal: true,
+      active: true
     },
     mapSettings: {
       enabled: true,
