@@ -90,7 +90,8 @@ var siteConfig = {
     excludedFilters: [],
     rootFilter: {
       displayOnNHCPortal: true,
-      active: true
+      active: true,
+      gbifRegion: 'EUROPE'
     }
   },
   institution: {
@@ -98,7 +99,8 @@ var siteConfig = {
     excludedFilters: [],
     rootFilter: {
       displayOnNHCPortal: true,
-      active: true
+      active: true,
+      gbifRegion: 'EUROPE'
     },
     mapSettings: {
       enabled: true,
